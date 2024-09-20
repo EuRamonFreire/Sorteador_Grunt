@@ -18,7 +18,7 @@ module.exports = function(grunt) {
         }, 3000);
     })
 
-    grunt.loadNpmTasks('grunt-contib-less');
+    grunt.loadNpmTasks('grunt-contrib-less');
     grunt.registerTask('default', ['less']);
 
 }
